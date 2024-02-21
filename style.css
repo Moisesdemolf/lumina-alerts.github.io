@@ -1,0 +1,158 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  
+  h1 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  h1::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: linear-gradient(to right, #f8902f, #e6fc20); /* Degradado de colores */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+  h2, h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 15px;
+  }
+  
+  /* Estilos para la cabecera */
+  
+  header {
+    position: sticky;
+      background: linear-gradient(45deg, #0de970, #1284e0);
+      padding: 2%;
+      width: 96%;
+      text-align: center;
+      margin: 0;
+      border-radius: 10px;
+      transform-style: preserve-3d;
+      box-shadow: 0 0 10px rgba(0, 0, 0,0.3);
+  }
+  
+  h1 {
+    margin-top: 0;
+  }
+  
+  /* Estilos para la navegación */
+  
+  nav {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos para el contenido principal */
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  pre {
+    position: relative;
+      color: rgb(248, 247, 247);
+      padding: 1%;
+      border-radius: 5px;
+      width: 98%;
+      background: rgb(14, 13, 13);
+      transform-style: preserve-3d;
+      box-shadow: 0 0 15px rgba(0, 0, 0,0.3);
+      font-size: 15px;
+      overflow: auto;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 5px;
+  }
+  
+  .salida {
+      display: inline-block;
+      outline: 0;
+      cursor: pointer;
+      border-radius: 6px;
+      border: 2px solid #ff4742;
+      color: #fff;
+      background-color: #ff4742;
+      padding: 8px;
+      box-shadow: rgba(0,0,0,0.07) 0px 2px 4px 0px, rgba(0,0,0,0.05) 0px 1px 1.5px 0px;
+      font-weight: 800;
+      font-size: 16px;
+      height: 42px;
+      transition: background-color 0.3s ease; 
+      transform: translateY(10%);
+  }
+  
+  .salida:hover {
+    background-color: #ffffff;
+    color: #ff4742;
+  }
+
+  #paypal {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px dashed #969595;
+    background-color: #e6e3e3;
+    border-radius: 10px;
+  }
+
+  #whatsapp, #instagram {
+    cursor: pointer;
+  }
+  #redes {
+    display: flex;
+    justify-content: space-evenly;
+  }
