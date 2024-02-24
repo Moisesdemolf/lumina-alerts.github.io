@@ -15,10 +15,9 @@ function simple() {
     function completo() {
         msg({
           theme: 'none', 
-          text: 'Soy lumina alerts, libreria de alerts de javascript <br><b>Bienvenido</b>',
+          text: 'Este es un ejemplo completo, de como usar lumina alerts',
           title: "Hola" ,
-          icon: 'bomm.png',
-          img: 'favicon.jpg', 
+          icon: 'images/happy.png',
           cancelBTN: true,
           confirmBTN: true,
           confirmTXT: 'Aceptar',
